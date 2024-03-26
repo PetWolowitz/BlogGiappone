@@ -1,0 +1,114 @@
+.headerCus{
+    background-image: url('/public/media/japan.jpg'); 
+    background-size: cover;
+    background-position: center;
+    
+}
+
+@font-face {
+    font-family: viaggi;
+    src: url('/public/media/Franchise.ttf');
+}
+
+h1{
+    font-family: viaggi;
+    font-size: 3em;
+   
+    text-align: center;
+    padding: 1em;
+    
+}
+
+:root{
+    --main-color: #f2c9d454;
+    --secondary-color: #BF5A7F;
+    --third-color: #F2A7C3;
+    --fourth-color:#8cd4d4c4;
+    --fifth-color: #F8F8F8;
+    --blackCus: #242424;
+    
+}
+
+.text-primaryCus {
+    color: var(--main-color);
+}
+
+.text-secondaryCus {
+    color: var(--secondary-color);
+}
+
+.text-accent {
+    color: var(--third-color);
+}
+
+.text-blackCus {
+    color: var(--blackCus);
+}
+
+.text-greenCus {
+    color: var(--fourth-color);
+}
+
+/* bg-Custom */
+
+.bg-primaryCus {
+    background-color:  var(--main-color);
+}
+
+.bg-secondaryCus {
+    background-color: var(--secondary-color);
+}
+
+.bg-accent {
+    background-color: var(--third-color);
+}
+
+.bg-fourthCus {
+    background-color: var(--fourth-color);
+}
+
+a{
+    font-family: viaggi;
+    
+}
+
+.navbarCus{
+    height: 80px
+    ;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+
+.myLogo {
+
+    width: 50px;
+}
+
+p{
+    font-family: viaggi;
+    font-size: 1.5em;
+    color: var(--blackCus);
+}
+h5{
+    font-family: viaggi;
+    font-size: 2em;
+    color: var(--blackCus);
+}
+
+.borderCus{
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+}
+
+h3{
+    font-family: viaggi;
+    
+    
+}
+img{
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+}
